@@ -1,0 +1,193 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<title>打印学生证</title>
+<style>
+.tableclass{
+ width:251px;
+ height:309px;
+}
+@media print{
+.nodayin{
+  display:none;
+}
+}
+</style>
+<script language="javascript">
+function look(){
+	document.getElementById("studentIdCardId").style.display="";
+}
+function dayin(){
+	document.body.innerHTML=document.getElementById("dayin").innerHTML;
+	window.print();
+}
+</script>
+</head>
+<body>
+<br>
+<br>
+<br>
+<dir class="nodayin">
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="预览打印" onClick="look()">
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="返回" onClick="javascript:location.reload();">
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="直接打印" onClick="dayin()">
+</dir>
+<div id="studentIdCardId" style="display: none;"  align="center">
+            
+<div id="dayin" class="dayin"  style="display:table-footer-group; border:none;">
+  <table  border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="25%">&nbsp;</td>
+    <td width="10">&nbsp;</td>
+    <td width="25%">&nbsp;</td>
+    <td width="10">&nbsp;</td>
+    <td width="25%">&nbsp;</td>
+    <td width="10">&nbsp;</td>
+    <td width="25%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>
+	<table class="tableclass"  border="1" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><table  width="100%" height="100%"  border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center"><img name="" src="p1.gif" width="80" height="80" alt=""></td>
+        </tr>
+      
+      <tr >
+        <td ><table width="100%" border="0">
+          <tr>
+            <td align="right">证件号</td>
+            <td>20140401</td>
+          </tr>
+          <tr>
+            <td align="right">有效期限</td>
+            <td>20130101</td>
+          </tr>
+          <tr>
+            <td align="right">至</td>
+            <td>20150101</td>
+          </tr>
+          <tr>
+            <td align="right">发证日期</td>
+            <td>20140401</td>
+          </tr>
+        </table></td>
+  </tr>
+</table>
+
+	</td>
+      </tr>
+	  
+    </table></td>
+    <td >&nbsp;</td>
+    <td><table class="tableclass" border="1" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="50%" align="right">姓名</td>
+        <td >毛泽东</td>
+      </tr>
+      <tr>
+        <td align="right">性别</td>
+        <td>男</td>
+      </tr>
+      <tr>
+        <td align="right">学号</td>
+        <td>20130303126</td>
+      </tr>
+      <tr>
+        <td align="right">出生年月</td>
+        <td>1999-09-09</td>
+      </tr>
+      <tr>
+        <td align="right">学院（系）</td>
+        <td>计算机与科学</td>
+      </tr>
+      <tr>
+        <td align="right">专业班级</td>
+        <td>软件工程</td>
+      </tr>
+      <tr>
+        <td align="right">入学时间</td>
+        <td>2013-09-01</td>
+      </tr>
+      <tr>
+        <td align="right">学制学历</td>
+        <td>本科</td>
+      </tr>
+    </table></td>
+    <td >&nbsp;</td>
+    <td><table  class="tableclass" border="1" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td colspan="2" align="center">假期火车票减价优待证</td>
+      </tr>
+      <tr>
+        <td width="50%" align="right">学校所在地</td>
+        <td >广西南宁市</td>
+      </tr>
+      <tr>
+        <td align="right">家庭所在地</td>
+        <td>广东深圳市</td>
+      </tr>
+      <tr>
+        <td align="right">乘车区间</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="right"></td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="right"></td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="right"></td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="right"></td>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+    <td >&nbsp;</td>
+    <td><table  class="tableclass"  border="1" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td colspan="2" align="center">假期火车票减价优待证</td>
+      </tr>
+      <tr>
+        <td align="right">&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="right">&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="right">&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="right">&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="right">&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="right">&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="right">&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+</div>
+    <dir class="nodayin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" onClick="window.print();">打印</a></dir>
+</div>
+</body>
+</html>
